@@ -1,0 +1,1577 @@
+[
+  {
+    "transaction_id": "txn_00084",
+    "amount": 9999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 9098.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 9999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00077",
+    "amount": 9999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 5198.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 9999,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00082",
+    "amount": 9999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 5065.66,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 9999,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00079",
+    "amount": 9999,
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 4948.51,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 9999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00054",
+    "amount": 9999,
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 4549.04,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00097",
+    "amount": 9999,
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 4549.04,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00043",
+    "amount": 4999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 4548.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00057",
+    "amount": 4999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 4256.48,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 4999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00078",
+    "amount": 9999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 3898.61,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00064",
+    "amount": 4999,
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "llm",
+    "action": "nudge",
+    "erv": 3573.79,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 4999,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00066",
+    "amount": 4999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 3573.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 4999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00069",
+    "amount": 4999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 3573.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 4999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00088",
+    "amount": 9999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 3448.65,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 9999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00050",
+    "amount": 4999,
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 3344.66,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 4999,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00039",
+    "amount": 4999,
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2932.25,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00014",
+    "amount": 4999,
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 2623.47,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00065",
+    "amount": 4999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2598.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 4999,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00092",
+    "amount": 4999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2598.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00028",
+    "amount": 9999,
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 2528.08,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00094",
+    "amount": 9999,
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "llm",
+    "action": "escalate",
+    "erv": 2361.43,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00060",
+    "amount": 4999,
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2274.04,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.40 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00011",
+    "amount": 2999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 2273.24,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 2999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00006",
+    "amount": 2999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 2143.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00049",
+    "amount": 2999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 2143.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00041",
+    "amount": 2999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1923.36,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 2999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00062",
+    "amount": 2999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 1558.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 2999,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00083",
+    "amount": 1499,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1363.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00036",
+    "amount": 1499,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1240.67,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 1499,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00008",
+    "amount": 2999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1168.61,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 2999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00033",
+    "amount": 2999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1168.61,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 2999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00055",
+    "amount": 2999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1168.61,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00047",
+    "amount": 1499,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1135.74,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 1499,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00096",
+    "amount": 1499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1029.56,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00034",
+    "amount": 1499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 947.12,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00052",
+    "amount": 999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 908.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00081",
+    "amount": 999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 908.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00018",
+    "amount": 1499,
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "llm",
+    "action": "retry",
+    "erv": 875.92,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00029",
+    "amount": 1499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 837.19,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 1499,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00061",
+    "amount": 1499,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 758.99,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00021",
+    "amount": 999,
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 713.79,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00020",
+    "amount": 999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 713.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00046",
+    "amount": 999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 713.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00063",
+    "amount": 999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 713.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00038",
+    "amount": 999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 676.66,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00003",
+    "amount": 9999,
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 649.44,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Not recoverable regardless of action (do_not_honor)"
+    }
+  },
+  {
+    "transaction_id": "txn_00040",
+    "amount": 9999,
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 641.1,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Not recoverable regardless of action (do_not_honor)"
+    }
+  },
+  {
+    "transaction_id": "txn_00032",
+    "amount": 999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 594.24,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00095",
+    "amount": 1499,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "llm",
+    "action": "retry",
+    "erv": 583.61,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Not recoverable regardless of action (do_not_honor)"
+    }
+  },
+  {
+    "transaction_id": "txn_00017",
+    "amount": 999,
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 583.42,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00091",
+    "amount": 4999,
+    "diagnosed_reason": "card_blocked",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 561.55,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00022",
+    "amount": 999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "llm",
+    "action": "retry",
+    "erv": 557.61,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 999,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00023",
+    "amount": 999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 518.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 999,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00074",
+    "amount": 999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 518.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 999,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00080",
+    "amount": 499,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 453.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 499,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00072",
+    "amount": 999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 452.38,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00004",
+    "amount": 999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 388.61,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00007",
+    "amount": 999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 388.61,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00010",
+    "amount": 2999,
+    "diagnosed_reason": "card_blocked",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 384.87,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00093",
+    "amount": 1499,
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 364.75,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00012",
+    "amount": 499,
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 356.29,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 499,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00013",
+    "amount": 499,
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 356.29,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 499,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00019",
+    "amount": 499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 355.79,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00031",
+    "amount": 499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 355.79,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00009",
+    "amount": 999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 353.64,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00048",
+    "amount": 1499,
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 334.77,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00026",
+    "amount": 499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 332.91,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 499,
+      "note": "Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00100",
+    "amount": 499,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 258.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00001",
+    "amount": 999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 256.08,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00051",
+    "amount": 299,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 154.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 299,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00085",
+    "amount": 499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 151.28,
+    "decision": "nudge",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00068",
+    "amount": 499,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 141.46,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00073",
+    "amount": 499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 140.88,
+    "decision": "nudge",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00024",
+    "amount": 299,
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 135.54,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00037",
+    "amount": 499,
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 106.44,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00075",
+    "amount": 299,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 95.17,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00025",
+    "amount": 299,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 93.68,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00035",
+    "amount": 1499,
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "llm",
+    "action": "switch_method",
+    "erv": 81.69,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00089",
+    "amount": 199,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 75.61,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false,
+    "outcome": {
+      "success": true,
+      "amount_recovered": 199,
+      "note": "Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00098",
+    "amount": 199,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 75.61,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00058",
+    "amount": 299,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 74.0,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00015",
+    "amount": 199,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 62.67,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00053",
+    "amount": 199,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 62.67,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00002",
+    "amount": 999,
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "llm",
+    "action": "switch_method",
+    "erv": 50.45,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00087",
+    "amount": 499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 48.73,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00059",
+    "amount": 299,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 35.87,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00027",
+    "amount": 299,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 30.39,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00005",
+    "amount": 199,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 23.87,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00016",
+    "amount": 199,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 23.87,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00030",
+    "amount": 199,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 23.87,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00042",
+    "amount": 199,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 23.87,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00099",
+    "amount": 199,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 22.88,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00056",
+    "amount": 199,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 22.21,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00086",
+    "amount": 299,
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 14.44,
+    "decision": "escalate",
+    "wanted_action": "nudge",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00045",
+    "amount": 299,
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 13.94,
+    "decision": "escalate",
+    "wanted_action": "nudge",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00070",
+    "amount": 199,
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "llm",
+    "action": "escalate",
+    "erv": 7.94,
+    "decision": "escalate",
+    "wanted_action": "nudge",
+    "got_first_choice": false,
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": "Escalated to human queue -- not counted as auto-recovered"
+    }
+  },
+  {
+    "transaction_id": "txn_00044",
+    "amount": 199,
+    "decision": "skip",
+    "reason": "no remaining capacity or no compliant/profitable action",
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": ""
+    }
+  },
+  {
+    "transaction_id": "txn_00067",
+    "amount": 199,
+    "decision": "skip",
+    "reason": "no remaining capacity or no compliant/profitable action",
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": ""
+    }
+  },
+  {
+    "transaction_id": "txn_00071",
+    "amount": 199,
+    "decision": "skip",
+    "reason": "no remaining capacity or no compliant/profitable action",
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": ""
+    }
+  },
+  {
+    "transaction_id": "txn_00076",
+    "amount": 199,
+    "decision": "skip",
+    "reason": "no remaining capacity or no compliant/profitable action",
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": ""
+    }
+  },
+  {
+    "transaction_id": "txn_00090",
+    "amount": 199,
+    "decision": "skip",
+    "reason": "no remaining capacity or no compliant/profitable action",
+    "outcome": {
+      "success": false,
+      "amount_recovered": 0.0,
+      "note": ""
+    }
+  }
+]

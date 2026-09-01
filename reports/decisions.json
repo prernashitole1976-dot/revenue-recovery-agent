@@ -1,0 +1,1202 @@
+[
+  {
+    "transaction_id": "txn_00001",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 308.69,
+      "switch_method": 256.08,
+      "nudge": 51.12,
+      "escalate": 46.62
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00002",
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 51.45,
+      "switch_method": 50.45,
+      "nudge": 51.95,
+      "escalate": 47.45
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00003",
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 648.94,
+      "switch_method": 647.94,
+      "nudge": 649.44,
+      "escalate": 644.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00004",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 388.61,
+      "switch_method": 322.68,
+      "nudge": 64.44,
+      "escalate": 59.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00005",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 141.29,
+      "switch_method": 23.87,
+      "nudge": 64.17,
+      "escalate": 7.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00006",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 2143.29,
+      "switch_method": 387.87,
+      "nudge": 974.18,
+      "escalate": 189.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00007",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 388.61,
+      "switch_method": 322.68,
+      "nudge": 64.44,
+      "escalate": 59.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00008",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 1168.61,
+      "switch_method": 972.68,
+      "nudge": 194.44,
+      "escalate": 189.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00009",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 353.64,
+      "switch_method": 293.54,
+      "nudge": 58.61,
+      "escalate": 54.11
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00010",
+    "diagnosed_reason": "card_blocked",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 193.94,
+      "switch_method": 192.94,
+      "nudge": 194.44,
+      "escalate": 384.87
+    },
+    "decision": "escalate"
+  },
+  {
+    "transaction_id": "txn_00011",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 2273.24,
+      "switch_method": 1297.57,
+      "nudge": 161.95,
+      "escalate": 157.45
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00012",
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 31.44,
+      "switch_method": 30.44,
+      "nudge": 356.29,
+      "escalate": 27.44
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00013",
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 31.44,
+      "switch_method": 30.44,
+      "nudge": 356.29,
+      "escalate": 27.44
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00014",
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 2623.47,
+      "switch_method": 289.61,
+      "nudge": 291.11,
+      "escalate": 286.61
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00015",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 76.61,
+      "switch_method": 62.67,
+      "nudge": 12.44,
+      "escalate": 7.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00016",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 141.29,
+      "switch_method": 23.87,
+      "nudge": 64.17,
+      "escalate": 7.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00017",
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 583.42,
+      "switch_method": 62.94,
+      "nudge": 64.44,
+      "escalate": 59.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00018",
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 875.92,
+      "switch_method": 95.44,
+      "nudge": 96.94,
+      "escalate": 92.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00019",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 355.79,
+      "switch_method": 62.87,
+      "nudge": 161.68,
+      "escalate": 27.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00020",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 713.29,
+      "switch_method": 127.87,
+      "nudge": 324.18,
+      "escalate": 59.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00021",
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 63.94,
+      "switch_method": 62.94,
+      "nudge": 713.79,
+      "escalate": 59.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00022",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 557.61,
+      "switch_method": 99.56,
+      "nudge": 253.41,
+      "escalate": 45.78
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00023",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 24.97,
+      "switch_method": 387.61,
+      "nudge": 518.98,
+      "escalate": 59.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00024",
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 18.44,
+      "switch_method": 17.44,
+      "nudge": 135.54,
+      "escalate": 14.44
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00025",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 5.38,
+      "switch_method": 93.68,
+      "nudge": 127.07,
+      "escalate": 10.95
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00026",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 332.91,
+      "switch_method": 58.71,
+      "nudge": 151.28,
+      "escalate": 25.36
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00027",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 177.15,
+      "switch_method": 30.39,
+      "nudge": 80.48,
+      "escalate": 11.2
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00028",
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 632.27,
+      "switch_method": 631.27,
+      "nudge": 632.77,
+      "escalate": 2528.08
+    },
+    "decision": "escalate"
+  },
+  {
+    "transaction_id": "txn_00029",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 837.19,
+      "switch_method": 150.4,
+      "nudge": 380.5,
+      "escalate": 71.2
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00030",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 141.29,
+      "switch_method": 23.87,
+      "nudge": 64.17,
+      "escalate": 7.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00031",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 355.79,
+      "switch_method": 62.87,
+      "nudge": 161.68,
+      "escalate": 27.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00032",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 594.24,
+      "switch_method": 106.23,
+      "nudge": 270.06,
+      "escalate": 49.11
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00033",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 1168.61,
+      "switch_method": 972.68,
+      "nudge": 194.44,
+      "escalate": 189.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00034",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 947.12,
+      "switch_method": 170.38,
+      "nudge": 430.46,
+      "escalate": 81.19
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00035",
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 82.69,
+      "switch_method": 81.69,
+      "nudge": 83.19,
+      "escalate": 78.69
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00036",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 1240.67,
+      "switch_method": 707.53,
+      "nudge": 88.19,
+      "escalate": 83.69
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00037",
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 26.86,
+      "switch_method": 25.86,
+      "nudge": 27.36,
+      "escalate": 106.44
+    },
+    "decision": "escalate"
+  },
+  {
+    "transaction_id": "txn_00038",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 676.66,
+      "switch_method": 121.21,
+      "nudge": 307.53,
+      "escalate": 56.61
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00039",
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 265.61,
+      "switch_method": 264.61,
+      "nudge": 2932.25,
+      "escalate": 261.61
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00040",
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 640.6,
+      "switch_method": 639.6,
+      "nudge": 641.1,
+      "escalate": 636.6
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00041",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 1923.36,
+      "switch_method": 347.88,
+      "nudge": 874.21,
+      "escalate": 169.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00042",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 141.29,
+      "switch_method": 23.87,
+      "nudge": 64.17,
+      "escalate": 7.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00043",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 4548.09,
+      "switch_method": 2597.48,
+      "nudge": 324.44,
+      "escalate": 319.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00044",
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 106.46,
+      "switch_method": 9.94,
+      "nudge": 11.44,
+      "escalate": 6.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00045",
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 17.94,
+      "switch_method": 16.94,
+      "nudge": 132.06,
+      "escalate": 13.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00046",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 713.29,
+      "switch_method": 127.87,
+      "nudge": 324.18,
+      "escalate": 59.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00047",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 1135.74,
+      "switch_method": 647.57,
+      "nudge": 80.7,
+      "escalate": 76.2
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00048",
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 83.94,
+      "switch_method": 82.94,
+      "nudge": 84.44,
+      "escalate": 334.77
+    },
+    "decision": "escalate"
+  },
+  {
+    "transaction_id": "txn_00049",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 2143.29,
+      "switch_method": 387.87,
+      "nudge": 974.18,
+      "escalate": 189.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00050",
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 303.11,
+      "switch_method": 302.11,
+      "nudge": 3344.66,
+      "escalate": 299.11
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00051",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 6.77,
+      "switch_method": 114.61,
+      "nudge": 154.98,
+      "escalate": 14.44
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00052",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 908.09,
+      "switch_method": 517.48,
+      "nudge": 64.44,
+      "escalate": 59.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00053",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 76.61,
+      "switch_method": 62.67,
+      "nudge": 12.44,
+      "escalate": 7.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00054",
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 648.94,
+      "switch_method": 647.94,
+      "nudge": 4549.04,
+      "escalate": 644.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00055",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 1168.61,
+      "switch_method": 972.68,
+      "nudge": 194.44,
+      "escalate": 189.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00056",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 132.16,
+      "switch_method": 22.21,
+      "nudge": 60.03,
+      "escalate": 7.11
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00057",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 4256.48,
+      "switch_method": 2430.85,
+      "nudge": 303.61,
+      "escalate": 299.11
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00058",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 90.19,
+      "switch_method": 74.0,
+      "nudge": 14.7,
+      "escalate": 10.2
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00059",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 207.3,
+      "switch_method": 35.87,
+      "nudge": 94.18,
+      "escalate": 13.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00060",
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 323.94,
+      "switch_method": 322.94,
+      "nudge": 2274.04,
+      "escalate": 319.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00061",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 36.97,
+      "switch_method": 567.62,
+      "nudge": 758.99,
+      "escalate": 89.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00062",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 76.97,
+      "switch_method": 1167.61,
+      "nudge": 1558.98,
+      "escalate": 189.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00063",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 713.29,
+      "switch_method": 127.87,
+      "nudge": 324.18,
+      "escalate": 59.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00064",
+    "diagnosed_reason": "otp_abandoned",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 323.94,
+      "switch_method": 322.94,
+      "nudge": 3573.79,
+      "escalate": 319.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00065",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 128.97,
+      "switch_method": 1947.61,
+      "nudge": 2598.98,
+      "escalate": 319.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00066",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 3573.29,
+      "switch_method": 647.87,
+      "nudge": 1624.17,
+      "escalate": 319.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00067",
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 101.98,
+      "switch_method": 9.44,
+      "nudge": 10.94,
+      "escalate": 6.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00068",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 171.15,
+      "switch_method": 141.46,
+      "nudge": 28.19,
+      "escalate": 23.69
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00069",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 3573.29,
+      "switch_method": 647.87,
+      "nudge": 1624.17,
+      "escalate": 319.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00070",
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 11.94,
+      "switch_method": 10.94,
+      "nudge": 90.04,
+      "escalate": 7.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00071",
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 11.6,
+      "switch_method": 10.6,
+      "nudge": 12.1,
+      "escalate": 7.6
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00072",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 21.64,
+      "switch_method": 337.66,
+      "nudge": 452.38,
+      "escalate": 51.61
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00073",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 310.04,
+      "switch_method": 54.55,
+      "nudge": 140.88,
+      "escalate": 23.28
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00074",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 24.97,
+      "switch_method": 387.61,
+      "nudge": 518.98,
+      "escalate": 59.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00075",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 115.61,
+      "switch_method": 95.17,
+      "nudge": 18.94,
+      "escalate": 14.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00076",
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 115.42,
+      "switch_method": 10.94,
+      "nudge": 12.44,
+      "escalate": 7.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00077",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 258.97,
+      "switch_method": 3897.61,
+      "nudge": 5198.98,
+      "escalate": 644.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00078",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 3898.61,
+      "switch_method": 3247.68,
+      "nudge": 649.44,
+      "escalate": 644.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00079",
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 4948.51,
+      "switch_method": 547.95,
+      "nudge": 549.45,
+      "escalate": 544.95
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00080",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 453.09,
+      "switch_method": 257.48,
+      "nudge": 31.94,
+      "escalate": 27.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00081",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 908.09,
+      "switch_method": 517.48,
+      "nudge": 64.44,
+      "escalate": 59.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00082",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 252.31,
+      "switch_method": 3797.62,
+      "nudge": 5065.66,
+      "escalate": 628.27
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00083",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 1363.09,
+      "switch_method": 777.48,
+      "nudge": 96.94,
+      "escalate": 92.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00084",
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 9098.09,
+      "switch_method": 5197.48,
+      "nudge": 649.44,
+      "escalate": 644.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00085",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 332.91,
+      "switch_method": 58.71,
+      "nudge": 151.28,
+      "escalate": 25.36
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00086",
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 18.44,
+      "switch_method": 17.44,
+      "nudge": 18.94,
+      "escalate": 14.44
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00087",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 278.02,
+      "switch_method": 48.73,
+      "nudge": 126.33,
+      "escalate": 20.37
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00088",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 3448.65,
+      "switch_method": 2872.71,
+      "nudge": 574.44,
+      "escalate": 569.94
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00089",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 4.17,
+      "switch_method": 75.61,
+      "nudge": 102.98,
+      "escalate": 7.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00090",
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 11.94,
+      "switch_method": 10.94,
+      "nudge": 90.04,
+      "escalate": 7.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00091",
+    "diagnosed_reason": "card_blocked",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 282.28,
+      "switch_method": 281.28,
+      "nudge": 282.78,
+      "escalate": 561.55
+    },
+    "decision": "escalate"
+  },
+  {
+    "transaction_id": "txn_00092",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 128.97,
+      "switch_method": 1947.61,
+      "nudge": 2598.98,
+      "escalate": 319.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00093",
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 91.44,
+      "switch_method": 90.44,
+      "nudge": 91.94,
+      "escalate": 364.75
+    },
+    "decision": "escalate"
+  },
+  {
+    "transaction_id": "txn_00094",
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 590.61,
+      "switch_method": 589.61,
+      "nudge": 591.11,
+      "escalate": 2361.43
+    },
+    "decision": "escalate"
+  },
+  {
+    "transaction_id": "txn_00095",
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "llm",
+    "erv_scores": {
+      "retry": 583.61,
+      "switch_method": 485.18,
+      "nudge": 96.94,
+      "escalate": 92.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00096",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 1029.56,
+      "switch_method": 185.38,
+      "nudge": 467.94,
+      "escalate": 88.69
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00097",
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 648.94,
+      "switch_method": 647.94,
+      "nudge": 4549.04,
+      "escalate": 644.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00098",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 4.17,
+      "switch_method": 75.61,
+      "nudge": 102.98,
+      "escalate": 7.94
+    },
+    "decision": "nudge"
+  },
+  {
+    "transaction_id": "txn_00099",
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 135.81,
+      "switch_method": 22.88,
+      "nudge": 61.69,
+      "escalate": 7.44
+    },
+    "decision": "retry"
+  },
+  {
+    "transaction_id": "txn_00100",
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "erv_scores": {
+      "retry": 11.97,
+      "switch_method": 192.61,
+      "nudge": 258.98,
+      "escalate": 27.44
+    },
+    "decision": "nudge"
+  }
+]

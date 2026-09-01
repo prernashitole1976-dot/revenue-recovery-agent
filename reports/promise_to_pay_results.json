@@ -1,0 +1,32 @@
+[
+  {
+    "transaction_id": "txn_00003",
+    "reply_text": "Sorry, salary gets credited this Friday, please try again then",
+    "intent": "reschedule",
+    "reschedule_date": "2026-08-21"
+  },
+  {
+    "transaction_id": "txn_00017",
+    "reply_text": "My card got blocked, I'll update payment method by Monday",
+    "intent": "reschedule",
+    "reschedule_date": "2026-08-24"
+  },
+  {
+    "transaction_id": "txn_00028",
+    "reply_text": "Not interested anymore, please cancel my subscription",
+    "intent": "cancel",
+    "reschedule_date": null
+  },
+  {
+    "transaction_id": "txn_00041",
+    "reply_text": "I already paid this manually, please check",
+    "intent": "dispute",
+    "reschedule_date": null
+  },
+  {
+    "transaction_id": "txn_00055",
+    "reply_text": "ok will pay next week sometime",
+    "intent": "reschedule",
+    "reschedule_date": "2026-08-27"
+  }
+]
