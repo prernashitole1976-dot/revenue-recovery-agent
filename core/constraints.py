@@ -14,8 +14,10 @@ DAILY_CAPACITY = {
 # retries on hard declines, and outreach outside reasonable hours is a
 # customer-experience (and in some read-ings, regulatory) risk.
 def passes_compliance(event, decline_reason, action):
+    if event["attempt_number"] > 3:
+        if action != "escalate":
+            return False, "attempt cap reached -- only escalate allowed"
+        return True, None
     if decline_reason in ("do_not_honor", "card_blocked", "risk_flagged_by_bank") and action == "retry":
         return False, "hard decline -- auto-retry blocked, must nudge or escalate"
-    if event["attempt_number"] > 3:
-        return False, "attempt cap reached -- must escalate, no further auto-actions"
     return True, None

@@ -38,9 +38,9 @@ def estimate_success_probability(decline_reason, action, customer_tenure_months)
 
 
 def compute_erv(event, action):
-    """Expected Recovery Value = (amount x P(success)) - cost of taking the action."""
     p = estimate_success_probability(
         event["decline_code"], action, event["customer_tenure_months"]
     )
+    p = p * (0.7 ** (event.get("attempt_number", 1) - 1))
     cost = ACTION_COSTS[action]
     return round(event["amount"] * p - cost, 2)
