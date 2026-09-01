@@ -1,0 +1,7 @@
+[
+  {"transaction_id": "txn_00003", "reply_text": "Sorry, salary gets credited this Friday, please try again then"},
+  {"transaction_id": "txn_00017", "reply_text": "My card got blocked, I'll update payment method by Monday"},
+  {"transaction_id": "txn_00028", "reply_text": "Not interested anymore, please cancel my subscription"},
+  {"transaction_id": "txn_00041", "reply_text": "I already paid this manually, please check"},
+  {"transaction_id": "txn_00055", "reply_text": "ok will pay next week sometime"}
+]
