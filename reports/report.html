@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Revenue Recovery Agent -- Results</title>
+<style>
+body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 820px; margin: 40px auto; color: #222; }
+h1 { font-size: 22px; } h2 { font-size: 17px; margin-top: 36px; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+.bar-row { display: flex; align-items: center; margin: 8px 0; font-size: 13px; }
+.bar-label { width: 280px; flex-shrink: 0; }
+.bar-track { flex: 1; background: #f0f0f0; border-radius: 4px; height: 18px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 4px; }
+.bar-value { width: 55px; text-align: right; font-weight: 600; }
+.receipts { background: #fafafa; padding: 14px; border-radius: 6px; font-family: monospace; font-size: 12px; line-height: 1.6; }
+.note { color: #666; font-size: 13px; }
+</style></head><body>
+<h1>Revenue Recovery Agent -- Batch Results</h1>
+<p class="note">Track 03: AI Revenue Recovery -- Razorpay AI Buildathon</p>
+
+<h2>Strategy comparison (mean of 200 seeds)</h2>
+<div class="bar-row"><div class="bar-label">Baseline: always retry</div><div class="bar-track"><div class="bar-fill" style="width:38.9%;background:#5b6df8"></div></div><div class="bar-value">38.9%</div></div><div class="bar-row"><div class="bar-label">Your Agent: ERV + capacity allocator</div><div class="bar-track"><div class="bar-fill" style="width:44.9%;background:#5b6df8"></div></div><div class="bar-value">44.9%</div></div><div class="bar-row"><div class="bar-label">Oracle: perfect hidden knowledge</div><div class="bar-track"><div class="bar-fill" style="width:47.4%;background:#5b6df8"></div></div><div class="bar-value">47.4%</div></div>
+
+<h2>Capacity sweep -- revenue retained vs outreach capacity</h2>
+<div class="bar-row"><div class="bar-label">100% capacity (95 served)</div><div class="bar-track"><div class="bar-fill" style="width:44.9%;background:#5b6df8"></div></div><div class="bar-value">44.9%</div></div><div class="bar-row"><div class="bar-label">75% capacity (72 served)</div><div class="bar-track"><div class="bar-fill" style="width:42.9%;background:#5b6df8"></div></div><div class="bar-value">42.9%</div></div><div class="bar-row"><div class="bar-label">50% capacity (47 served)</div><div class="bar-track"><div class="bar-fill" style="width:38.7%;background:#5b6df8"></div></div><div class="bar-value">38.7%</div></div><div class="bar-row"><div class="bar-label">25% capacity (23 served)</div><div class="bar-track"><div class="bar-fill" style="width:26.0%;background:#5b6df8"></div></div><div class="bar-value">26.0%</div></div>
+<p class="note">Revenue retained drops slower than capacity -- the allocator preferentially keeps high-ERV transactions as capacity shrinks.</p>
+
+<h2>Failure attribution (59 failed decisions)</h2>
+<div class="bar-row"><div class="bar-label">Diagnosis</div><div class="bar-track"><div class="bar-fill" style="width:5.1%;background:#e15b5b"></div></div><div class="bar-value">5.1%</div></div><div class="bar-row"><div class="bar-label">Judgment</div><div class="bar-track"><div class="bar-fill" style="width:0.0%;background:#e1a15b"></div></div><div class="bar-value">0.0%</div></div><div class="bar-row"><div class="bar-label">Capacity</div><div class="bar-track"><div class="bar-fill" style="width:32.2%;background:#5b9ee1"></div></div><div class="bar-value">32.2%</div></div><div class="bar-row"><div class="bar-label">Variance</div><div class="bar-track"><div class="bar-fill" style="width:62.7%;background:#8fbf5b"></div></div><div class="bar-value">62.7%</div></div>
+<p class="note">Diagnosis = misread the decline reason (stub path only). Judgment = free choice, picked wrong (0 here). Capacity = right call, lost the slot to a higher-ERV transaction. Variance = right call, failed on probability alone.</p>
+
+<h2>Sample recovery receipts (seed=42 demo run)</h2>
+<div class="receipts">txn_00076: diagnosed 'technical_timeout' (via rule, ERV=₹9098) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered<br>txn_00087: diagnosed 'technical_timeout' (via rule, ERV=₹9098) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered<br>txn_00096: diagnosed 'technical_timeout' (via rule, ERV=₹8748) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered<br>txn_00053: diagnosed 'insufficient_funds' (via llm, ERV=₹7148) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered<br>txn_00054: diagnosed 'insufficient_funds' (via rule, ERV=₹7148) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered<br>txn_00097: diagnosed 'insufficient_funds' (via rule, ERV=₹7148) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered</div>
+
+<h2>Promise-to-pay: sample customer replies parsed</h2>
+<ul><li><b>txn_00003</b>: "Sorry, salary gets credited this Friday, please try again then" &rarr; <i>reschedule</i>, reschedule 2026-08-21</li><li><b>txn_00017</b>: "My card got blocked, I'll update payment method by Monday" &rarr; <i>reschedule</i>, reschedule 2026-08-24</li><li><b>txn_00028</b>: "Not interested anymore, please cancel my subscription" &rarr; <i>cancel</i></li><li><b>txn_00041</b>: "I already paid this manually, please check" &rarr; <i>dispute</i></li><li><b>txn_00055</b>: "ok will pay next week sometime" &rarr; <i>reschedule</i>, reschedule 2026-08-27</li></ul>
+</body></html>

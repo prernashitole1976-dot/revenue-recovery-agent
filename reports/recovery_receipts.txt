@@ -1,100 +1,100 @@
-txn_00084: diagnosed 'technical_timeout' (via rule, ERV=₹9098) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
-txn_00077: diagnosed 'expired_card' (via rule, ERV=₹5199) -> chose 'nudge' -> RECOVERED (₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
-txn_00082: diagnosed 'expired_card' (via rule, ERV=₹5066) -> chose 'nudge' -> RECOVERED (₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
-txn_00079: diagnosed 'exceeds_withdrawal_limit' (via rule, ERV=₹4949) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered
-txn_00054: diagnosed 'invalid_cvv' (via rule, ERV=₹4549) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered
-txn_00097: diagnosed 'invalid_cvv' (via rule, ERV=₹4549) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered
-txn_00043: diagnosed 'technical_timeout' (via rule, ERV=₹4548) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> not recovered
-txn_00057: diagnosed 'technical_timeout' (via rule, ERV=₹4256) -> chose 'retry' -> RECOVERED (₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
-txn_00078: diagnosed 'bank_declined_generic' (via rule, ERV=₹3899) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
-txn_00064: diagnosed 'otp_abandoned' (via llm, ERV=₹3574) -> chose 'nudge' -> RECOVERED (₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
-txn_00066: diagnosed 'insufficient_funds' (via rule, ERV=₹3573) -> chose 'retry' -> RECOVERED (₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
-txn_00069: diagnosed 'insufficient_funds' (via rule, ERV=₹3573) -> chose 'retry' -> RECOVERED (₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
-txn_00088: diagnosed 'bank_declined_generic' (via rule, ERV=₹3449) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered
-txn_00050: diagnosed 'otp_abandoned' (via rule, ERV=₹3345) -> chose 'nudge' -> RECOVERED (₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> recovered
-txn_00039: diagnosed 'otp_abandoned' (via rule, ERV=₹2932) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> not recovered
-txn_00014: diagnosed 'exceeds_withdrawal_limit' (via rule, ERV=₹2623) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> not recovered
-txn_00065: diagnosed 'expired_card' (via rule, ERV=₹2599) -> chose 'nudge' -> RECOVERED (₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
-txn_00092: diagnosed 'expired_card' (via rule, ERV=₹2599) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
-txn_00028: diagnosed 'risk_flagged_by_bank' (via rule, ERV=₹2528) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹9999). Escalated to human queue -- not counted as auto-recovered
-txn_00094: diagnosed 'risk_flagged_by_bank' (via llm, ERV=₹2361) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹9999). Escalated to human queue -- not counted as auto-recovered
-txn_00060: diagnosed 'mandate_not_approved' (via rule, ERV=₹2274) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.40 -> not recovered
-txn_00011: diagnosed 'technical_timeout' (via rule, ERV=₹2273) -> chose 'retry' -> RECOVERED (₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
-txn_00006: diagnosed 'insufficient_funds' (via rule, ERV=₹2143) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
-txn_00049: diagnosed 'insufficient_funds' (via rule, ERV=₹2143) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
-txn_00041: diagnosed 'insufficient_funds' (via rule, ERV=₹1923) -> chose 'retry' -> RECOVERED (₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
-txn_00062: diagnosed 'expired_card' (via rule, ERV=₹1559) -> chose 'nudge' -> RECOVERED (₹2999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
-txn_00083: diagnosed 'technical_timeout' (via rule, ERV=₹1363) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> not recovered
-txn_00036: diagnosed 'technical_timeout' (via rule, ERV=₹1241) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
-txn_00008: diagnosed 'bank_declined_generic' (via rule, ERV=₹1169) -> chose 'retry' -> RECOVERED (₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered
-txn_00033: diagnosed 'bank_declined_generic' (via rule, ERV=₹1169) -> chose 'retry' -> RECOVERED (₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered
-txn_00055: diagnosed 'bank_declined_generic' (via rule, ERV=₹1169) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
-txn_00047: diagnosed 'technical_timeout' (via rule, ERV=₹1136) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
-txn_00096: diagnosed 'insufficient_funds' (via rule, ERV=₹1030) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
-txn_00034: diagnosed 'insufficient_funds' (via rule, ERV=₹947) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
-txn_00052: diagnosed 'technical_timeout' (via rule, ERV=₹908) -> chose 'retry' -> RECOVERED (₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
-txn_00081: diagnosed 'technical_timeout' (via rule, ERV=₹908) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> not recovered
-txn_00018: diagnosed 'exceeds_withdrawal_limit' (via llm, ERV=₹876) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
-txn_00029: diagnosed 'insufficient_funds' (via rule, ERV=₹837) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
-txn_00061: diagnosed 'expired_card' (via rule, ERV=₹759) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹1499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
-txn_00021: diagnosed 'otp_abandoned' (via rule, ERV=₹714) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> not recovered
-txn_00020: diagnosed 'insufficient_funds' (via rule, ERV=₹713) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
-txn_00046: diagnosed 'insufficient_funds' (via rule, ERV=₹713) -> chose 'retry' -> RECOVERED (₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
-txn_00063: diagnosed 'insufficient_funds' (via rule, ERV=₹713) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
-txn_00038: diagnosed 'insufficient_funds' (via rule, ERV=₹677) -> chose 'retry' -> RECOVERED (₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
-txn_00003: diagnosed 'do_not_honor' (via rule, ERV=₹649) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹9999). Not recoverable regardless of action (do_not_honor)
-txn_00040: diagnosed 'do_not_honor' (via rule, ERV=₹641) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹9999). Not recoverable regardless of action (do_not_honor)
-txn_00032: diagnosed 'insufficient_funds' (via rule, ERV=₹594) -> chose 'retry' -> RECOVERED (₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
-txn_00095: diagnosed 'bank_declined_generic' (via llm, ERV=₹584) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹1499). Not recoverable regardless of action (do_not_honor)
-txn_00017: diagnosed 'exceeds_withdrawal_limit' (via rule, ERV=₹583) -> chose 'retry' -> RECOVERED (₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered
-txn_00091: diagnosed 'card_blocked' (via rule, ERV=₹562) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹4999). Escalated to human queue -- not counted as auto-recovered
-txn_00022: diagnosed 'insufficient_funds' (via llm, ERV=₹558) -> chose 'retry' -> RECOVERED (₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered
-txn_00023: diagnosed 'expired_card' (via rule, ERV=₹519) -> chose 'nudge' -> RECOVERED (₹999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
-txn_00074: diagnosed 'expired_card' (via rule, ERV=₹519) -> chose 'nudge' -> RECOVERED (₹999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
-txn_00080: diagnosed 'technical_timeout' (via rule, ERV=₹453) -> chose 'retry' -> RECOVERED (₹499). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
-txn_00072: diagnosed 'expired_card' (via rule, ERV=₹452) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
-txn_00004: diagnosed 'bank_declined_generic' (via rule, ERV=₹389) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
-txn_00007: diagnosed 'bank_declined_generic' (via rule, ERV=₹389) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
-txn_00010: diagnosed 'card_blocked' (via rule, ERV=₹385) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹2999). Escalated to human queue -- not counted as auto-recovered
-txn_00093: diagnosed 'risk_flagged_by_bank' (via rule, ERV=₹365) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹1499). Escalated to human queue -- not counted as auto-recovered
-txn_00012: diagnosed 'otp_abandoned' (via rule, ERV=₹356) -> chose 'nudge' -> RECOVERED (₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> recovered
-txn_00013: diagnosed 'otp_abandoned' (via rule, ERV=₹356) -> chose 'nudge' -> RECOVERED (₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> recovered
-txn_00019: diagnosed 'insufficient_funds' (via rule, ERV=₹356) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
-txn_00031: diagnosed 'insufficient_funds' (via rule, ERV=₹356) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
-txn_00009: diagnosed 'bank_declined_generic' (via rule, ERV=₹354) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
-txn_00048: diagnosed 'risk_flagged_by_bank' (via rule, ERV=₹335) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹1499). Escalated to human queue -- not counted as auto-recovered
-txn_00026: diagnosed 'insufficient_funds' (via rule, ERV=₹333) -> chose 'retry' -> RECOVERED (₹499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
-txn_00100: diagnosed 'expired_card' (via rule, ERV=₹259) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
-txn_00001: diagnosed 'bank_declined_generic' (via rule, ERV=₹256) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹999). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
-txn_00051: diagnosed 'expired_card' (via rule, ERV=₹155) -> chose 'nudge' -> RECOVERED (₹299). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
-txn_00085: diagnosed 'insufficient_funds' (via rule, ERV=₹151) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹499). Action 'nudge' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00068: diagnosed 'bank_declined_generic' (via rule, ERV=₹141) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹499). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
-txn_00073: diagnosed 'insufficient_funds' (via rule, ERV=₹141) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹499). Action 'nudge' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00024: diagnosed 'invalid_cvv' (via rule, ERV=₹136) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹299). Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered
-txn_00037: diagnosed 'risk_flagged_by_bank' (via rule, ERV=₹106) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹499). Escalated to human queue -- not counted as auto-recovered
-txn_00075: diagnosed 'bank_declined_generic' (via rule, ERV=₹95) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
-txn_00025: diagnosed 'expired_card' (via rule, ERV=₹94) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered
-txn_00035: diagnosed 'do_not_honor' (via llm, ERV=₹82) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹1499). Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered
-txn_00089: diagnosed 'expired_card' (via rule, ERV=₹76) -> chose 'switch_method' -> RECOVERED (₹199). Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> recovered
-txn_00098: diagnosed 'expired_card' (via rule, ERV=₹76) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered
-txn_00058: diagnosed 'bank_declined_generic' (via rule, ERV=₹74) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
-txn_00015: diagnosed 'bank_declined_generic' (via rule, ERV=₹63) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
-txn_00053: diagnosed 'bank_declined_generic' (via rule, ERV=₹63) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
-txn_00002: diagnosed 'do_not_honor' (via llm, ERV=₹50) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹999). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
-txn_00087: diagnosed 'insufficient_funds' (via rule, ERV=₹49) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹499). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00059: diagnosed 'insufficient_funds' (via rule, ERV=₹36) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00027: diagnosed 'insufficient_funds' (via rule, ERV=₹30) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00005: diagnosed 'insufficient_funds' (via rule, ERV=₹24) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00016: diagnosed 'insufficient_funds' (via rule, ERV=₹24) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00030: diagnosed 'insufficient_funds' (via rule, ERV=₹24) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00042: diagnosed 'insufficient_funds' (via rule, ERV=₹24) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00099: diagnosed 'insufficient_funds' (via rule, ERV=₹23) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00056: diagnosed 'insufficient_funds' (via rule, ERV=₹22) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
-txn_00086: diagnosed 'do_not_honor' (via rule, ERV=₹14) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹299). Escalated to human queue -- not counted as auto-recovered
+txn_00076: diagnosed 'technical_timeout' (via rule, ERV=₹9098) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00087: diagnosed 'technical_timeout' (via rule, ERV=₹9098) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00096: diagnosed 'technical_timeout' (via rule, ERV=₹8748) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00053: diagnosed 'insufficient_funds' (via llm, ERV=₹7148) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered
+txn_00054: diagnosed 'insufficient_funds' (via rule, ERV=₹7148) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
+txn_00097: diagnosed 'insufficient_funds' (via rule, ERV=₹7148) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
+txn_00057: diagnosed 'insufficient_funds' (via rule, ERV=₹6415) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
+txn_00039: diagnosed 'exceeds_withdrawal_limit' (via rule, ERV=₹5848) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered
+txn_00019: diagnosed 'expired_card' (via rule, ERV=₹4932) -> chose 'nudge' -> RECOVERED (₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
+txn_00048: diagnosed 'expired_card' (via rule, ERV=₹4799) -> chose 'nudge' -> RECOVERED (₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
+txn_00022: diagnosed 'technical_timeout' (via rule, ERV=₹4548) -> chose 'retry' -> RECOVERED (₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00061: diagnosed 'technical_timeout' (via rule, ERV=₹4198) -> chose 'retry' -> RECOVERED (₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00063: diagnosed 'invalid_cvv' (via rule, ERV=₹4024) -> chose 'nudge' -> RECOVERED (₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> recovered
+txn_00050: diagnosed 'invalid_cvv' (via rule, ERV=₹3966) -> chose 'nudge' -> RECOVERED (₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> recovered
+txn_00095: diagnosed 'mandate_not_approved' (via rule, ERV=₹3966) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹9999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.40 -> not recovered
+txn_00035: diagnosed 'technical_timeout' (via rule, ERV=₹3907) -> chose 'retry' -> RECOVERED (₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00003: diagnosed 'bank_declined_generic' (via rule, ERV=₹3899) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered
+txn_00015: diagnosed 'insufficient_funds' (via rule, ERV=₹3573) -> chose 'retry' -> RECOVERED (₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
+txn_00067: diagnosed 'insufficient_funds' (via rule, ERV=₹3573) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
+txn_00088: diagnosed 'bank_declined_generic' (via rule, ERV=₹3299) -> chose 'retry' -> RECOVERED (₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered
+txn_00001: diagnosed 'bank_declined_generic' (via rule, ERV=₹3099) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
+txn_00034: diagnosed 'bank_declined_generic' (via rule, ERV=₹3099) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹9999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
+txn_00013: diagnosed 'technical_timeout' (via rule, ERV=₹2728) -> chose 'retry' -> RECOVERED (₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00099: diagnosed 'technical_timeout' (via rule, ERV=₹2728) -> chose 'retry' -> RECOVERED (₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00072: diagnosed 'exceeds_withdrawal_limit' (via rule, ERV=₹2698) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹4999). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> not recovered
+txn_00010: diagnosed 'expired_card' (via rule, ERV=₹2599) -> chose 'nudge' -> RECOVERED (₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
+txn_00027: diagnosed 'expired_card' (via rule, ERV=₹2599) -> chose 'nudge' -> RECOVERED (₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
+txn_00069: diagnosed 'expired_card' (via rule, ERV=₹2599) -> chose 'nudge' -> RECOVERED (₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
+txn_00094: diagnosed 'technical_timeout' (via rule, ERV=₹2308) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> not recovered
+txn_00031: diagnosed 'invalid_cvv' (via rule, ERV=₹2274) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered
+txn_00080: diagnosed 'mandate_not_approved' (via rule, ERV=₹2187) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹4999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.40 -> not recovered
+txn_00098: diagnosed 'insufficient_funds' (via rule, ERV=₹2143) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
+txn_00049: diagnosed 'risk_flagged_by_bank' (via llm, ERV=₹2061) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹9999). Escalated to human queue -- not counted as auto-recovered
+txn_00026: diagnosed 'bank_declined_generic' (via llm, ERV=₹1824) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹4999). Not recoverable regardless of action (risk_flagged_by_bank)
+txn_00014: diagnosed 'insufficient_funds' (via rule, ERV=₹1758) -> chose 'retry' -> RECOVERED (₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
+txn_00006: diagnosed 'insufficient_funds' (via rule, ERV=₹1676) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
+txn_00046: diagnosed 'expired_card' (via rule, ERV=₹1559) -> chose 'nudge' -> RECOVERED (₹2999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
+txn_00075: diagnosed 'expired_card' (via rule, ERV=₹1559) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹2999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
+txn_00055: diagnosed 'expired_card' (via rule, ERV=₹1499) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹2999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
+txn_00059: diagnosed 'mandate_not_approved' (via rule, ERV=₹1364) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹2999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.40 -> not recovered
+txn_00037: diagnosed 'technical_timeout' (via rule, ERV=₹1363) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> not recovered
+txn_00002: diagnosed 'bank_declined_generic' (via rule, ERV=₹1169) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
+txn_00086: diagnosed 'bank_declined_generic' (via rule, ERV=₹1169) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹2999). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
+txn_00074: diagnosed 'insufficient_funds' (via rule, ERV=₹1071) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
+txn_00079: diagnosed 'insufficient_funds' (via rule, ERV=₹1071) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
+txn_00005: diagnosed 'insufficient_funds' (via rule, ERV=₹947) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
+txn_00052: diagnosed 'exceeds_withdrawal_limit' (via rule, ERV=₹876) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered
+txn_00025: diagnosed 'insufficient_funds' (via rule, ERV=₹851) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> recovered
+txn_00058: diagnosed 'technical_timeout' (via rule, ERV=₹757) -> chose 'retry' -> RECOVERED (₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00004: diagnosed 'exceeds_withdrawal_limit' (via rule, ERV=₹719) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered
+txn_00100: diagnosed 'insufficient_funds' (via rule, ERV=₹713) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.60 -> not recovered
+txn_00085: diagnosed 'expired_card' (via rule, ERV=₹669) -> chose 'nudge' -> RECOVERED (₹1499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
+txn_00016: diagnosed 'invalid_cvv' (via rule, ERV=₹664) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹1499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered
+txn_00090: diagnosed 'card_blocked' (via rule, ERV=₹645) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹4999). Escalated to human queue -- not counted as auto-recovered
+txn_00007: diagnosed 'exceeds_withdrawal_limit' (via rule, ERV=₹583) -> chose 'retry' -> RECOVERED (₹999). Action 'retry' vs correct 'retry', attempt 1, p=0.50 -> recovered
+txn_00041: diagnosed 'bank_declined_generic' (via rule, ERV=₹569) -> chose 'retry' -> RECOVERED (₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> recovered
+txn_00051: diagnosed 'expired_card' (via rule, ERV=₹519) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
+txn_00018: diagnosed 'bank_declined_generic' (via rule, ERV=₹509) -> chose 'retry' -> NOT RECOVERED (₹0 of ₹1499). Action 'retry' vs correct 'retry', attempt 1, p=0.35 -> not recovered
+txn_00012: diagnosed 'technical_timeout' (via rule, ERV=₹453) -> chose 'retry' -> RECOVERED (₹499). Action 'retry' vs correct 'retry', attempt 1, p=0.75 -> recovered
+txn_00073: diagnosed 'mandate_not_approved' (via rule, ERV=₹378) -> chose 'nudge' -> RECOVERED (₹999). Action 'nudge' vs correct 'nudge', attempt 1, p=0.40 -> recovered
+txn_00032: diagnosed 'risk_flagged_by_bank' (via rule, ERV=₹365) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹1499). Escalated to human queue -- not counted as auto-recovered
+txn_00008: diagnosed 'otp_abandoned' (via rule, ERV=₹356) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.60 -> not recovered
+txn_00023: diagnosed 'do_not_honor' (via rule, ERV=₹324) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹4999). Not recoverable regardless of action (do_not_honor)
+txn_00029: diagnosed 'bank_declined_generic' (via rule, ERV=₹323) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹999). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
+txn_00038: diagnosed 'expired_card' (via rule, ERV=₹259) -> chose 'nudge' -> RECOVERED (₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> recovered
+txn_00009: diagnosed 'invalid_cvv' (via rule, ERV=₹227) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.30 -> not recovered
+txn_00093: diagnosed 'mandate_not_approved' (via rule, ERV=₹227) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.40 -> not recovered
+txn_00017: diagnosed 'risk_flagged_by_bank' (via rule, ERV=₹221) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹999). Escalated to human queue -- not counted as auto-recovered
+txn_00078: diagnosed 'expired_card' (via rule, ERV=₹216) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
+txn_00089: diagnosed 'expired_card' (via rule, ERV=₹212) -> chose 'nudge' -> NOT RECOVERED (₹0 of ₹499). Action 'nudge' vs correct 'nudge', attempt 1, p=0.45 -> not recovered
+txn_00040: diagnosed 'bank_declined_generic' (via rule, ERV=₹160) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹499). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
+txn_00084: diagnosed 'bank_declined_generic' (via rule, ERV=₹160) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹499). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
+txn_00043: diagnosed 'bank_declined_generic' (via rule, ERV=₹158) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹499). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
+txn_00064: diagnosed 'technical_timeout' (via rule, ERV=₹153) -> chose 'switch_method' -> RECOVERED (₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.26 -> recovered
+txn_00020: diagnosed 'technical_timeout' (via rule, ERV=₹144) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.26 -> not recovered
+txn_00060: diagnosed 'technical_timeout' (via rule, ERV=₹138) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.26 -> not recovered
+txn_00042: diagnosed 'card_blocked' (via rule, ERV=₹125) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹999). Escalated to human queue -- not counted as auto-recovered
+txn_00071: diagnosed 'expired_card' (via rule, ERV=₹115) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered
+txn_00081: diagnosed 'do_not_honor' (via rule, ERV=₹95) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹1499). Not recoverable regardless of action (do_not_honor)
+txn_00024: diagnosed 'bank_declined_generic' (via rule, ERV=₹84) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
+txn_00036: diagnosed 'bank_declined_generic' (via rule, ERV=₹78) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.12 -> not recovered
+txn_00062: diagnosed 'do_not_honor' (via rule, ERV=₹77) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹1499). Not recoverable regardless of action (do_not_honor)
+txn_00065: diagnosed 'expired_card' (via rule, ERV=₹76) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered
+txn_00091: diagnosed 'expired_card' (via rule, ERV=₹68) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹199). Action 'switch_method' vs correct 'nudge', attempt 1, p=0.16 -> not recovered
+txn_00083: diagnosed 'insufficient_funds' (via rule, ERV=₹63) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹499). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
+txn_00056: diagnosed 'insufficient_funds' (via rule, ERV=₹54) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹499). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
+txn_00077: diagnosed 'risk_flagged_by_bank' (via rule, ERV=₹47) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹199). Escalated to human queue -- not counted as auto-recovered
+txn_00044: diagnosed 'insufficient_funds' (via rule, ERV=₹37) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
+txn_00033: diagnosed 'insufficient_funds' (via rule, ERV=₹35) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
+txn_00011: diagnosed 'insufficient_funds' (via rule, ERV=₹35) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
+txn_00066: diagnosed 'insufficient_funds' (via rule, ERV=₹31) -> chose 'switch_method' -> NOT RECOVERED (₹0 of ₹299). Action 'switch_method' vs correct 'retry', attempt 1, p=0.21 -> not recovered
+txn_00092: diagnosed 'do_not_honor' (via rule, ERV=₹22) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹499). Escalated to human queue -- not counted as auto-recovered
+txn_00021: diagnosed 'mandate_not_approved' (via rule, ERV=₹14) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹299). Escalated to human queue -- not counted as auto-recovered
 txn_00045: diagnosed 'invalid_cvv' (via rule, ERV=₹14) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹299). Escalated to human queue -- not counted as auto-recovered
-txn_00070: diagnosed 'mandate_not_approved' (via llm, ERV=₹8) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹199). Escalated to human queue -- not counted as auto-recovered
-txn_00044: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹199 left at risk.
-txn_00067: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹199 left at risk.
-txn_00071: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹199 left at risk.
-txn_00076: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹199 left at risk.
-txn_00090: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹199 left at risk.
+txn_00070: diagnosed 'invalid_cvv' (via llm, ERV=₹14) -> chose 'escalate' -> NOT RECOVERED (₹0 of ₹299). Escalated to human queue -- not counted as auto-recovered
+txn_00028: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹199 left at risk.
+txn_00030: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹199 left at risk.
+txn_00047: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹199 left at risk.
+txn_00068: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹299 left at risk.
+txn_00082: SKIPPED -- no remaining capacity or no compliant/profitable action. ₹299 left at risk.

@@ -1,111 +1,212 @@
 [
   {
-    "transaction_id": "txn_00084",
+    "transaction_id": "txn_00076",
     "amount": 9999,
     "diagnosed_reason": "technical_timeout",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 9098.09,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00077",
+    "transaction_id": "txn_00087",
     "amount": 9999,
-    "diagnosed_reason": "expired_card",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 5198.98,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00082",
-    "amount": 9999,
-    "diagnosed_reason": "expired_card",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 5065.66,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00079",
-    "amount": 9999,
-    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosed_reason": "technical_timeout",
     "diagnosis_method": "rule",
     "action": "retry",
-    "erv": 4948.51,
-    "decision": "retry"
+    "erv": 9098.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00096",
+    "amount": 9999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 8748.12,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00053",
+    "amount": 9999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "llm",
+    "action": "retry",
+    "erv": 7148.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
     "transaction_id": "txn_00054",
     "amount": 9999,
-    "diagnosed_reason": "invalid_cvv",
+    "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 4549.04,
-    "decision": "nudge"
+    "action": "retry",
+    "erv": 7148.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
     "transaction_id": "txn_00097",
     "amount": 9999,
-    "diagnosed_reason": "invalid_cvv",
+    "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 4549.04,
-    "decision": "nudge"
+    "action": "retry",
+    "erv": 7148.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00043",
+    "transaction_id": "txn_00057",
+    "amount": 9999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 6415.03,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00039",
+    "amount": 9999,
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 5848.42,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00019",
+    "amount": 9999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 4932.34,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00048",
+    "amount": 9999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 4799.02,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00022",
     "amount": 4999,
     "diagnosed_reason": "technical_timeout",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 4548.09,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00057",
+    "transaction_id": "txn_00061",
     "amount": 4999,
     "diagnosed_reason": "technical_timeout",
     "diagnosis_method": "rule",
     "action": "retry",
-    "erv": 4256.48,
-    "decision": "retry"
+    "erv": 4198.16,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00078",
+    "transaction_id": "txn_00063",
+    "amount": 9999,
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 4024.1,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00050",
+    "amount": 9999,
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 3965.77,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00095",
+    "amount": 9999,
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 3965.77,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00035",
+    "amount": 4999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 3906.55,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00003",
     "amount": 9999,
     "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 3898.61,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00064",
-    "amount": 4999,
-    "diagnosed_reason": "otp_abandoned",
-    "diagnosis_method": "llm",
-    "action": "nudge",
-    "erv": 3573.79,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00066",
+    "transaction_id": "txn_00015",
     "amount": 4999,
     "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 3573.29,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00069",
+    "transaction_id": "txn_00067",
     "amount": 4999,
     "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 3573.29,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
     "transaction_id": "txn_00088",
@@ -113,89 +214,175 @@
     "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
     "action": "retry",
-    "erv": 3448.65,
-    "decision": "retry"
+    "erv": 3298.67,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00050",
-    "amount": 4999,
-    "diagnosed_reason": "otp_abandoned",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 3344.66,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00039",
-    "amount": 4999,
-    "diagnosed_reason": "otp_abandoned",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 2932.25,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00014",
-    "amount": 4999,
-    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "transaction_id": "txn_00001",
+    "amount": 9999,
+    "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
     "action": "retry",
-    "erv": 2623.47,
-    "decision": "retry"
+    "erv": 3098.69,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00065",
-    "amount": 4999,
-    "diagnosed_reason": "expired_card",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 2598.98,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00092",
-    "amount": 4999,
-    "diagnosed_reason": "expired_card",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 2598.98,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00028",
+    "transaction_id": "txn_00034",
     "amount": 9999,
-    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
-    "action": "escalate",
-    "erv": 2528.08,
-    "decision": "escalate"
+    "action": "retry",
+    "erv": 3098.69,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00094",
-    "amount": 9999,
-    "diagnosed_reason": "risk_flagged_by_bank",
-    "diagnosis_method": "llm",
-    "action": "escalate",
-    "erv": 2361.43,
-    "decision": "escalate"
-  },
-  {
-    "transaction_id": "txn_00060",
-    "amount": 4999,
-    "diagnosed_reason": "mandate_not_approved",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 2274.04,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00011",
+    "transaction_id": "txn_00013",
     "amount": 2999,
     "diagnosed_reason": "technical_timeout",
     "diagnosis_method": "rule",
     "action": "retry",
-    "erv": 2273.24,
-    "decision": "retry"
+    "erv": 2728.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00099",
+    "amount": 2999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 2728.09,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00072",
+    "amount": 4999,
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 2698.46,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00010",
+    "amount": 4999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2598.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00027",
+    "amount": 4999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2598.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00069",
+    "amount": 4999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2598.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00094",
+    "amount": 2999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 2308.23,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00031",
+    "amount": 4999,
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2274.04,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00080",
+    "amount": 4999,
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 2186.56,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00098",
+    "amount": 2999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 2143.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00049",
+    "amount": 9999,
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "llm",
+    "action": "escalate",
+    "erv": 2061.46,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00026",
+    "amount": 4999,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "llm",
+    "action": "retry",
+    "erv": 1823.64,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00014",
+    "amount": 2999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1758.41,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
     "transaction_id": "txn_00006",
@@ -203,638 +390,637 @@
     "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
     "action": "retry",
-    "erv": 2143.29,
-    "decision": "retry"
+    "erv": 1675.94,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00049",
-    "amount": 2999,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 2143.29,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00041",
-    "amount": 2999,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 1923.36,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00062",
+    "transaction_id": "txn_00046",
     "amount": 2999,
     "diagnosed_reason": "expired_card",
     "diagnosis_method": "rule",
     "action": "nudge",
     "erv": 1558.98,
-    "decision": "nudge"
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00083",
+    "transaction_id": "txn_00075",
+    "amount": 2999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 1558.98,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00055",
+    "amount": 2999,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 1499.0,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00059",
+    "amount": 2999,
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 1364.04,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00037",
     "amount": 1499,
     "diagnosed_reason": "technical_timeout",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 1363.09,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00036",
-    "amount": 1499,
-    "diagnosed_reason": "technical_timeout",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 1240.67,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00008",
+    "transaction_id": "txn_00002",
     "amount": 2999,
     "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 1168.61,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00033",
+    "transaction_id": "txn_00086",
     "amount": 2999,
     "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 1168.61,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00055",
-    "amount": 2999,
-    "diagnosed_reason": "bank_declined_generic",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 1168.61,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00047",
-    "amount": 1499,
-    "diagnosed_reason": "technical_timeout",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 1135.74,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00096",
+    "transaction_id": "txn_00074",
     "amount": 1499,
     "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
     "action": "retry",
-    "erv": 1029.56,
-    "decision": "retry"
+    "erv": 1070.79,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00034",
+    "transaction_id": "txn_00079",
+    "amount": 1499,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 1070.79,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00005",
     "amount": 1499,
     "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 947.12,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
     "transaction_id": "txn_00052",
-    "amount": 999,
-    "diagnosed_reason": "technical_timeout",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 908.09,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00081",
-    "amount": 999,
-    "diagnosed_reason": "technical_timeout",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 908.09,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00018",
     "amount": 1499,
     "diagnosed_reason": "exceeds_withdrawal_limit",
-    "diagnosis_method": "llm",
+    "diagnosis_method": "rule",
     "action": "retry",
     "erv": 875.92,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00029",
+    "transaction_id": "txn_00025",
     "amount": 1499,
     "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
     "action": "retry",
-    "erv": 837.19,
-    "decision": "retry"
+    "erv": 850.93,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00061",
+    "transaction_id": "txn_00058",
+    "amount": 999,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 756.57,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00004",
+    "amount": 1499,
+    "diagnosed_reason": "exceeds_withdrawal_limit",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 718.52,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00100",
+    "amount": 999,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "retry",
+    "erv": 713.29,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00085",
     "amount": 1499,
     "diagnosed_reason": "expired_card",
     "diagnosis_method": "rule",
     "action": "nudge",
-    "erv": 758.99,
-    "decision": "nudge"
+    "erv": 669.05,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00021",
-    "amount": 999,
-    "diagnosed_reason": "otp_abandoned",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 713.79,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00020",
-    "amount": 999,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 713.29,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00046",
-    "amount": 999,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 713.29,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00063",
-    "amount": 999,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 713.29,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00038",
-    "amount": 999,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 676.66,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00003",
-    "amount": 9999,
-    "diagnosed_reason": "do_not_honor",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 649.44,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00040",
-    "amount": 9999,
-    "diagnosed_reason": "do_not_honor",
-    "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 641.1,
-    "decision": "nudge"
-  },
-  {
-    "transaction_id": "txn_00032",
-    "amount": 999,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 594.24,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00095",
+    "transaction_id": "txn_00016",
     "amount": 1499,
-    "diagnosed_reason": "bank_declined_generic",
-    "diagnosis_method": "llm",
-    "action": "retry",
-    "erv": 583.61,
-    "decision": "retry"
+    "diagnosed_reason": "invalid_cvv",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 664.06,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00017",
+    "transaction_id": "txn_00090",
+    "amount": 4999,
+    "diagnosed_reason": "card_blocked",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 644.87,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00007",
     "amount": 999,
     "diagnosed_reason": "exceeds_withdrawal_limit",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 583.42,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00091",
-    "amount": 4999,
-    "diagnosed_reason": "card_blocked",
+    "transaction_id": "txn_00041",
+    "amount": 1499,
+    "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
-    "action": "escalate",
-    "erv": 561.55,
-    "decision": "escalate"
-  },
-  {
-    "transaction_id": "txn_00022",
-    "amount": 999,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "llm",
     "action": "retry",
-    "erv": 557.61,
-    "decision": "retry"
+    "erv": 568.62,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00023",
+    "transaction_id": "txn_00051",
     "amount": 999,
     "diagnosed_reason": "expired_card",
     "diagnosis_method": "rule",
     "action": "nudge",
     "erv": 518.98,
-    "decision": "nudge"
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00074",
-    "amount": 999,
-    "diagnosed_reason": "expired_card",
+    "transaction_id": "txn_00018",
+    "amount": 1499,
+    "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 518.98,
-    "decision": "nudge"
+    "action": "retry",
+    "erv": 508.66,
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00080",
+    "transaction_id": "txn_00012",
     "amount": 499,
     "diagnosed_reason": "technical_timeout",
     "diagnosis_method": "rule",
     "action": "retry",
     "erv": 453.09,
-    "decision": "retry"
+    "decision": "retry",
+    "wanted_action": "retry",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00072",
+    "transaction_id": "txn_00073",
     "amount": 999,
-    "diagnosed_reason": "expired_card",
+    "diagnosed_reason": "mandate_not_approved",
     "diagnosis_method": "rule",
     "action": "nudge",
-    "erv": 452.38,
-    "decision": "nudge"
+    "erv": 378.29,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00004",
-    "amount": 999,
-    "diagnosed_reason": "bank_declined_generic",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 388.61,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00007",
-    "amount": 999,
-    "diagnosed_reason": "bank_declined_generic",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 388.61,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00010",
-    "amount": 2999,
-    "diagnosed_reason": "card_blocked",
-    "diagnosis_method": "rule",
-    "action": "escalate",
-    "erv": 384.87,
-    "decision": "escalate"
-  },
-  {
-    "transaction_id": "txn_00093",
+    "transaction_id": "txn_00032",
     "amount": 1499,
     "diagnosed_reason": "risk_flagged_by_bank",
     "diagnosis_method": "rule",
     "action": "escalate",
     "erv": 364.75,
-    "decision": "escalate"
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00012",
+    "transaction_id": "txn_00008",
     "amount": 499,
     "diagnosed_reason": "otp_abandoned",
     "diagnosis_method": "rule",
     "action": "nudge",
     "erv": 356.29,
-    "decision": "nudge"
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00013",
-    "amount": 499,
-    "diagnosed_reason": "otp_abandoned",
+    "transaction_id": "txn_00023",
+    "amount": 4999,
+    "diagnosed_reason": "do_not_honor",
     "diagnosis_method": "rule",
     "action": "nudge",
-    "erv": 356.29,
-    "decision": "nudge"
+    "erv": 324.44,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00019",
-    "amount": 499,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 355.79,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00031",
-    "amount": 499,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 355.79,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00009",
+    "transaction_id": "txn_00029",
     "amount": 999,
     "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 353.64,
-    "decision": "retry"
+    "action": "switch_method",
+    "erv": 322.68,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00048",
-    "amount": 1499,
-    "diagnosed_reason": "risk_flagged_by_bank",
-    "diagnosis_method": "rule",
-    "action": "escalate",
-    "erv": 334.77,
-    "decision": "escalate"
-  },
-  {
-    "transaction_id": "txn_00026",
-    "amount": 499,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "retry",
-    "erv": 332.91,
-    "decision": "retry"
-  },
-  {
-    "transaction_id": "txn_00100",
+    "transaction_id": "txn_00038",
     "amount": 499,
     "diagnosed_reason": "expired_card",
     "diagnosis_method": "rule",
     "action": "nudge",
     "erv": 258.98,
-    "decision": "nudge"
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00001",
-    "amount": 999,
-    "diagnosed_reason": "bank_declined_generic",
+    "transaction_id": "txn_00009",
+    "amount": 499,
+    "diagnosed_reason": "invalid_cvv",
     "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 256.08,
-    "decision": "switch_method"
+    "action": "nudge",
+    "erv": 226.54,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00051",
-    "amount": 299,
+    "transaction_id": "txn_00093",
+    "amount": 499,
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "rule",
+    "action": "nudge",
+    "erv": 226.54,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00017",
+    "amount": 999,
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 221.44,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00078",
+    "amount": 499,
     "diagnosed_reason": "expired_card",
     "diagnosis_method": "rule",
     "action": "nudge",
-    "erv": 154.98,
-    "decision": "nudge"
+    "erv": 215.73,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00085",
+    "transaction_id": "txn_00089",
     "amount": 499,
-    "diagnosed_reason": "insufficient_funds",
+    "diagnosed_reason": "expired_card",
     "diagnosis_method": "rule",
     "action": "nudge",
-    "erv": 151.28,
-    "decision": "nudge"
+    "erv": 212.41,
+    "decision": "nudge",
+    "wanted_action": "nudge",
+    "got_first_choice": true
   },
   {
-    "transaction_id": "txn_00068",
+    "transaction_id": "txn_00040",
     "amount": 499,
     "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
     "action": "switch_method",
-    "erv": 141.46,
-    "decision": "switch_method"
+    "erv": 160.18,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00073",
+    "transaction_id": "txn_00084",
     "amount": 499,
-    "diagnosed_reason": "insufficient_funds",
+    "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 140.88,
-    "decision": "nudge"
+    "action": "switch_method",
+    "erv": 160.18,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00043",
+    "amount": 499,
+    "diagnosed_reason": "bank_declined_generic",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 158.1,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00064",
+    "amount": 299,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 153.48,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00020",
+    "amount": 299,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 143.51,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00060",
+    "amount": 299,
+    "diagnosed_reason": "technical_timeout",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 137.53,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00042",
+    "amount": 999,
+    "diagnosed_reason": "card_blocked",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 124.87,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00071",
+    "amount": 299,
+    "diagnosed_reason": "expired_card",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 114.61,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00081",
+    "amount": 1499,
+    "diagnosed_reason": "do_not_honor",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 95.44,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false
   },
   {
     "transaction_id": "txn_00024",
     "amount": 299,
-    "diagnosed_reason": "invalid_cvv",
+    "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
-    "action": "nudge",
-    "erv": 135.54,
-    "decision": "nudge"
+    "action": "switch_method",
+    "erv": 83.96,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00037",
-    "amount": 499,
-    "diagnosed_reason": "risk_flagged_by_bank",
-    "diagnosis_method": "rule",
-    "action": "escalate",
-    "erv": 106.44,
-    "decision": "escalate"
-  },
-  {
-    "transaction_id": "txn_00075",
+    "transaction_id": "txn_00036",
     "amount": 299,
     "diagnosed_reason": "bank_declined_generic",
     "diagnosis_method": "rule",
     "action": "switch_method",
-    "erv": 95.17,
-    "decision": "switch_method"
+    "erv": 77.73,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00025",
-    "amount": 299,
-    "diagnosed_reason": "expired_card",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 93.68,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00035",
+    "transaction_id": "txn_00062",
     "amount": 1499,
     "diagnosed_reason": "do_not_honor",
-    "diagnosis_method": "llm",
+    "diagnosis_method": "rule",
     "action": "switch_method",
-    "erv": 81.69,
-    "decision": "switch_method"
+    "erv": 76.7,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00089",
+    "transaction_id": "txn_00065",
     "amount": 199,
     "diagnosed_reason": "expired_card",
     "diagnosis_method": "rule",
     "action": "switch_method",
     "erv": 75.61,
-    "decision": "switch_method"
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00098",
+    "transaction_id": "txn_00091",
     "amount": 199,
     "diagnosed_reason": "expired_card",
     "diagnosis_method": "rule",
     "action": "switch_method",
-    "erv": 75.61,
-    "decision": "switch_method"
+    "erv": 67.65,
+    "decision": "switch_method",
+    "wanted_action": "nudge",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00058",
-    "amount": 299,
-    "diagnosed_reason": "bank_declined_generic",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 74.0,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00015",
-    "amount": 199,
-    "diagnosed_reason": "bank_declined_generic",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 62.67,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00053",
-    "amount": 199,
-    "diagnosed_reason": "bank_declined_generic",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 62.67,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00002",
-    "amount": 999,
-    "diagnosed_reason": "do_not_honor",
-    "diagnosis_method": "llm",
-    "action": "switch_method",
-    "erv": 50.45,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00087",
+    "transaction_id": "txn_00083",
     "amount": 499,
     "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
     "action": "switch_method",
-    "erv": 48.73,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00059",
-    "amount": 299,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 35.87,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00027",
-    "amount": 299,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 30.39,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00005",
-    "amount": 199,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 23.87,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00016",
-    "amount": 199,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 23.87,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00030",
-    "amount": 199,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 23.87,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00042",
-    "amount": 199,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 23.87,
-    "decision": "switch_method"
-  },
-  {
-    "transaction_id": "txn_00099",
-    "amount": 199,
-    "diagnosed_reason": "insufficient_funds",
-    "diagnosis_method": "rule",
-    "action": "switch_method",
-    "erv": 22.88,
-    "decision": "switch_method"
+    "erv": 62.87,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
   },
   {
     "transaction_id": "txn_00056",
-    "amount": 199,
+    "amount": 499,
     "diagnosed_reason": "insufficient_funds",
     "diagnosis_method": "rule",
     "action": "switch_method",
-    "erv": 22.21,
-    "decision": "switch_method"
+    "erv": 53.72,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00086",
+    "transaction_id": "txn_00077",
+    "amount": 199,
+    "diagnosed_reason": "risk_flagged_by_bank",
+    "diagnosis_method": "rule",
+    "action": "escalate",
+    "erv": 46.74,
+    "decision": "escalate",
+    "wanted_action": "escalate",
+    "got_first_choice": true
+  },
+  {
+    "transaction_id": "txn_00044",
     "amount": 299,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 36.87,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00033",
+    "amount": 299,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 35.38,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00011",
+    "amount": 299,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 34.88,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00066",
+    "amount": 299,
+    "diagnosed_reason": "insufficient_funds",
+    "diagnosis_method": "rule",
+    "action": "switch_method",
+    "erv": 30.89,
+    "decision": "switch_method",
+    "wanted_action": "retry",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00092",
+    "amount": 499,
     "diagnosed_reason": "do_not_honor",
     "diagnosis_method": "rule",
     "action": "escalate",
+    "erv": 21.61,
+    "decision": "escalate",
+    "wanted_action": "nudge",
+    "got_first_choice": false
+  },
+  {
+    "transaction_id": "txn_00021",
+    "amount": 299,
+    "diagnosed_reason": "mandate_not_approved",
+    "diagnosis_method": "rule",
+    "action": "escalate",
     "erv": 14.44,
-    "decision": "escalate"
+    "decision": "escalate",
+    "wanted_action": "nudge",
+    "got_first_choice": false
   },
   {
     "transaction_id": "txn_00045",
@@ -842,45 +1028,49 @@
     "diagnosed_reason": "invalid_cvv",
     "diagnosis_method": "rule",
     "action": "escalate",
-    "erv": 13.94,
-    "decision": "escalate"
+    "erv": 14.44,
+    "decision": "escalate",
+    "wanted_action": "nudge",
+    "got_first_choice": false
   },
   {
     "transaction_id": "txn_00070",
-    "amount": 199,
-    "diagnosed_reason": "mandate_not_approved",
+    "amount": 299,
+    "diagnosed_reason": "invalid_cvv",
     "diagnosis_method": "llm",
     "action": "escalate",
-    "erv": 7.94,
-    "decision": "escalate"
+    "erv": 14.44,
+    "decision": "escalate",
+    "wanted_action": "nudge",
+    "got_first_choice": false
   },
   {
-    "transaction_id": "txn_00044",
+    "transaction_id": "txn_00028",
     "amount": 199,
     "decision": "skip",
     "reason": "no remaining capacity or no compliant/profitable action"
   },
   {
-    "transaction_id": "txn_00067",
+    "transaction_id": "txn_00030",
     "amount": 199,
     "decision": "skip",
     "reason": "no remaining capacity or no compliant/profitable action"
   },
   {
-    "transaction_id": "txn_00071",
+    "transaction_id": "txn_00047",
     "amount": 199,
     "decision": "skip",
     "reason": "no remaining capacity or no compliant/profitable action"
   },
   {
-    "transaction_id": "txn_00076",
-    "amount": 199,
+    "transaction_id": "txn_00068",
+    "amount": 299,
     "decision": "skip",
     "reason": "no remaining capacity or no compliant/profitable action"
   },
   {
-    "transaction_id": "txn_00090",
-    "amount": 199,
+    "transaction_id": "txn_00082",
+    "amount": 299,
     "decision": "skip",
     "reason": "no remaining capacity or no compliant/profitable action"
   }

@@ -11,20 +11,20 @@
     "recoverable": true,
     "recovers_with_action": "retry",
     "base_success_probability": 0.35,
-    "is_messy_case": true
+    "is_messy_case": false
   },
   {
     "transaction_id": "txn_00003",
-    "recoverable": false,
-    "recovers_with_action": null,
-    "base_success_probability": 0.0,
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.35,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00004",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "base_success_probability": 0.5,
     "is_messy_case": false
   },
   {
@@ -45,77 +45,77 @@
     "transaction_id": "txn_00007",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "base_success_probability": 0.5,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00008",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00009",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.3,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00010",
-    "recoverable": false,
-    "recovers_with_action": null,
-    "base_success_probability": 0.0,
+    "recoverable": true,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00011",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00012",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00013",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00014",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.5,
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00015",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00016",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.3,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00017",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.5,
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
@@ -123,188 +123,188 @@
     "recoverable": true,
     "recovers_with_action": "retry",
     "base_success_probability": 0.35,
-    "is_messy_case": true
+    "is_messy_case": false
   },
   {
     "transaction_id": "txn_00019",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00020",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00021",
     "recoverable": true,
     "recovers_with_action": "nudge",
-    "base_success_probability": 0.6,
+    "base_success_probability": 0.4,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00022",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
-    "is_messy_case": true
+    "base_success_probability": 0.75,
+    "is_messy_case": false
   },
   {
     "transaction_id": "txn_00023",
-    "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00024",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.3,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.35,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00025",
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.6,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00026",
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
+    "is_messy_case": true
+  },
+  {
+    "transaction_id": "txn_00027",
     "recoverable": true,
     "recovers_with_action": "nudge",
     "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
-    "transaction_id": "txn_00026",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00027",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
-    "is_messy_case": false
-  },
-  {
     "transaction_id": "txn_00028",
-    "recoverable": false,
-    "recovers_with_action": null,
-    "base_success_probability": 0.0,
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00029",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "base_success_probability": 0.35,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00030",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "base_success_probability": 0.5,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00031",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.3,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00032",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00033",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00034",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "base_success_probability": 0.35,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00035",
-    "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
-    "is_messy_case": true
-  },
-  {
-    "transaction_id": "txn_00036",
     "recoverable": true,
     "recovers_with_action": "retry",
     "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
+    "transaction_id": "txn_00036",
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.35,
+    "is_messy_case": false
+  },
+  {
     "transaction_id": "txn_00037",
-    "recoverable": false,
-    "recovers_with_action": null,
-    "base_success_probability": 0.0,
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00038",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00039",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.5,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00040",
-    "recoverable": false,
-    "recovers_with_action": null,
-    "base_success_probability": 0.0,
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.35,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00041",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "base_success_probability": 0.35,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00042",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00043",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
+    "base_success_probability": 0.35,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00044",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.5,
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
@@ -317,36 +317,36 @@
   {
     "transaction_id": "txn_00046",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00047",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.4,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00048",
-    "recoverable": false,
-    "recovers_with_action": null,
-    "base_success_probability": 0.0,
+    "recoverable": true,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00049",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
-    "is_messy_case": false
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
+    "is_messy_case": true
   },
   {
     "transaction_id": "txn_00050",
     "recoverable": true,
     "recovers_with_action": "nudge",
-    "base_success_probability": 0.6,
+    "base_success_probability": 0.3,
     "is_messy_case": false
   },
   {
@@ -360,28 +360,28 @@
     "transaction_id": "txn_00052",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
+    "base_success_probability": 0.5,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00053",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
-    "is_messy_case": false
+    "base_success_probability": 0.5,
+    "is_messy_case": true
   },
   {
     "transaction_id": "txn_00054",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.3,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00055",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
@@ -395,57 +395,57 @@
     "transaction_id": "txn_00057",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00058",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00059",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00060",
     "recoverable": true,
     "recovers_with_action": "nudge",
     "base_success_probability": 0.4,
     "is_messy_case": false
   },
   {
+    "transaction_id": "txn_00060",
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
+    "is_messy_case": false
+  },
+  {
     "transaction_id": "txn_00061",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00062",
-    "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00063",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.3,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00064",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
-    "is_messy_case": true
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
+    "is_messy_case": false
   },
   {
     "transaction_id": "txn_00065",
@@ -465,147 +465,147 @@
     "transaction_id": "txn_00067",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.5,
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00068",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00069",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00070",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.5,
+    "base_success_probability": 0.6,
     "is_messy_case": true
   },
   {
     "transaction_id": "txn_00071",
-    "recoverable": false,
-    "recovers_with_action": null,
-    "base_success_probability": 0.0,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00072",
     "recoverable": true,
     "recovers_with_action": "nudge",
     "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
+    "transaction_id": "txn_00072",
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.5,
+    "is_messy_case": false
+  },
+  {
     "transaction_id": "txn_00073",
+    "recoverable": true,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.4,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00074",
     "recoverable": true,
     "recovers_with_action": "retry",
     "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
-    "transaction_id": "txn_00074",
+    "transaction_id": "txn_00075",
     "recoverable": true,
     "recovers_with_action": "nudge",
     "base_success_probability": 0.45,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00075",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00076",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
-    "is_messy_case": true
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
+    "is_messy_case": false
   },
   {
     "transaction_id": "txn_00077",
-    "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00078",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.35,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00079",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.5,
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00080",
     "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.4,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00081",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00082",
-    "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00083",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00084",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.75,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00085",
-    "recoverable": true,
-    "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00086",
     "recoverable": false,
     "recovers_with_action": null,
     "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
-    "transaction_id": "txn_00087",
+    "transaction_id": "txn_00082",
+    "recoverable": false,
+    "recovers_with_action": null,
+    "base_success_probability": 0.0,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00083",
     "recoverable": true,
     "recovers_with_action": "retry",
     "base_success_probability": 0.6,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00084",
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.35,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00085",
+    "recoverable": true,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.45,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00086",
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.35,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00087",
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
@@ -624,79 +624,79 @@
   },
   {
     "transaction_id": "txn_00090",
-    "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.3,
-    "is_messy_case": false
-  },
-  {
-    "transaction_id": "txn_00091",
     "recoverable": false,
     "recovers_with_action": null,
     "base_success_probability": 0.0,
     "is_messy_case": false
   },
   {
-    "transaction_id": "txn_00092",
+    "transaction_id": "txn_00091",
     "recoverable": true,
     "recovers_with_action": "nudge",
     "base_success_probability": 0.45,
     "is_messy_case": false
   },
   {
-    "transaction_id": "txn_00093",
+    "transaction_id": "txn_00092",
     "recoverable": false,
     "recovers_with_action": null,
     "base_success_probability": 0.0,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00093",
+    "recoverable": true,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.4,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00094",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
-    "is_messy_case": true
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
+    "is_messy_case": false
   },
   {
     "transaction_id": "txn_00095",
-    "recoverable": false,
-    "recovers_with_action": null,
-    "base_success_probability": 0.0,
-    "is_messy_case": true
+    "recoverable": true,
+    "recovers_with_action": "nudge",
+    "base_success_probability": 0.4,
+    "is_messy_case": false
   },
   {
     "transaction_id": "txn_00096",
+    "recoverable": true,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.75,
+    "is_messy_case": false
+  },
+  {
+    "transaction_id": "txn_00097",
     "recoverable": true,
     "recovers_with_action": "retry",
     "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
-    "transaction_id": "txn_00097",
-    "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.3,
-    "is_messy_case": false
-  },
-  {
     "transaction_id": "txn_00098",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.6,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00099",
     "recoverable": true,
     "recovers_with_action": "retry",
-    "base_success_probability": 0.6,
+    "base_success_probability": 0.75,
     "is_messy_case": false
   },
   {
     "transaction_id": "txn_00100",
     "recoverable": true,
-    "recovers_with_action": "nudge",
-    "base_success_probability": 0.45,
+    "recovers_with_action": "retry",
+    "base_success_probability": 0.6,
     "is_messy_case": false
   }
 ]
