@@ -8,7 +8,7 @@ with open("reports/decisions.json") as f:
     decisions = {d["transaction_id"]: d for d in json.load(f)}
 
 total_amount = sum(e["amount"] for e in EVENTS.values())
-SEEDS = [1, 2, 3, 7, 13, 21, 42, 99, 100, 256]
+SEEDS = list(range(1, 201))
 
 results = []
 for seed in SEEDS:

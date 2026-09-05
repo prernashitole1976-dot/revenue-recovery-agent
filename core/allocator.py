@@ -4,7 +4,7 @@ import sys, os
 sys.path.append(os.path.dirname(__file__))
 from erv import compute_erv
 from diagnosis_router import diagnose
-from llm_diagnose import llm_diagnose_stub
+from llm_diagnose import get_diagnose_fn
 from constraints import DAILY_CAPACITY, passes_compliance
 
 ACTIONS = ["retry", "switch_method", "nudge", "escalate"]
@@ -16,10 +16,11 @@ def allocate_batch(events, capacity=None):
     capacity = capacity or DAILY_CAPACITY
 
     # Step 1: diagnose + score every transaction against every legal action
+    diagnose_fn = get_diagnose_fn()  # decide once per batch, not per transaction
     per_txn_options = {}
     candidates = []
     for event in events:
-        reason, method, confidence = diagnose(event, llm_diagnose_stub)
+        reason, method, confidence = diagnose(event, diagnose_fn)
         options = []
         for action in ACTIONS:
             ok, block_reason = passes_compliance(event, reason, action)

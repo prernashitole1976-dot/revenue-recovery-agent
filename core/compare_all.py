@@ -7,7 +7,7 @@ with open("reports/decisions.json") as f:
     AGENT_DECISIONS = {d["transaction_id"]: d["decision"] for d in json.load(f)}
 
 total_amount = sum(e["amount"] for e in EVENTS.values())
-SEEDS = [1, 2, 3, 7, 13, 21, 42, 99, 100, 256]
+SEEDS = list(range(1, 201))
 
 def run(action_fn, seed):
     rng = random.Random(seed)
